@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".navdrawer.AboutActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue!"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewIntroduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Learn French, the language learning app designed to make the journey of mastering French enjoyable and accessible. As a native French speaker, I believe that learning a new language, especially at a basic level (A1-A2), should be a delightful experience for everyone."
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewWhyLearnFrench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Why Learn French?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewIntroduction"
+        android:layout_marginTop="20dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewWhyLearnFrenchContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" - Fun and Engaging: Say goodbye to boring lessons! Discover how learning French can be exciting and enjoyable in an environment that turns every challenge into a fun adventure.\n\n - Multimedia Learning: Dive into a variety of resources, including books, videos, and quizzes, to reinforce your newfound language skills. Learning is not just about textbooks; it's about experiencing the language in different ways."
+        android:layout_below="@id/textViewWhyLearnFrench"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewOurApproach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Approach:"
+        android:layout_below="@id/textViewWhyLearnFrenchContent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewOurApproachContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I've crafted Learn French to be more than just an app; it's a companion on your language learning journey. With the app, you'll find an immersive experience that goes beyond traditional methods, making language acquisition a pleasurable and rewarding endeavor."
+        android:layout_below="@id/textViewOurApproach"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewLearnAnytime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn Anytime, Anywhere:"
+        android:layout_below="@id/textViewOurApproachContent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewLearnAnytimeContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whether you're a beginner or looking to brush up on your skills, Learn French is designed for learners of all ages. Because, after all, there's no age limit when it comes to learning a new language. \n \n I'm thrilled to share this language learning adventure with you. When Learn French becomes accessible, I hope you find it valuable and enjoyable. Let's embark on this linguistic journey together! \n \n À bientôt! (See you soon!) \n \n [Mustafa Enes Bağcı]"
+        android:layout_below="@id/textViewLearnAnytime"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+</RelativeLayout>

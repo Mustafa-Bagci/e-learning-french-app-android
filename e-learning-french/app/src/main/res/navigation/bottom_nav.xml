@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="mustafa.bagci.learnfrench.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment android:id="@+id/videos"
+        android:label="Videos"
+        android:name="mustafa.bagci.learnfrench.ui.videos.VideosFragment"
+        tools:layout="@layout/fragment_videos">
+    </fragment>
+
+    <fragment android:id="@+id/quiz"
+        android:label="Quiz"
+        android:name="mustafa.bagci.learnfrench.ui.quiz.QuizFragment"
+        tools:layout="@layout/fragment_quiz">
+    </fragment>
+
+</navigation>

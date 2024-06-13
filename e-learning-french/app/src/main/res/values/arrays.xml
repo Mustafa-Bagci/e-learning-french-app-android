@@ -1,0 +1,74 @@
+<resources>
+    <string-array name="topic1">
+        <item>Level Test 1</item>
+        <item>Level Test 2</item>
+        <item>Spelling Level Test</item>
+        <item>Frequent Confusions/Paronyms</item>
+    </string-array>
+
+    <string-array name="topic2">
+        <item>Progressive courses 6 levels / Work guide</item>
+        <item>All other courses</item>
+        <item>Thousands of exercises classified by genres, themes, difficulties</item>
+    </string-array>
+
+    <string-array name="topic3">
+        <item>The alphabet</item>
+        <item>Accents</item>
+        <item>Cedilla</item>
+        <item>The articles</item>
+        <item>The gender of nouns</item>
+        <item>Subject personal pronouns</item>
+        <item>Verbs be-have</item>
+        <item>Types of sentences</item>
+        <item>The plural of nouns</item>
+        <item>The verb, the subject and the groups</item>
+        <item>The present tense</item>
+        <item>The future of the indicative</item>
+        <item>Imperfect indicative</item>
+        <item>Qualifying adjectives - general</item>
+        <item>Qualifying adjectives - agreements</item>
+        <item>Possessive adjectives</item>
+        <item>Demonstrative adjectives</item>
+        <item>Prepositions</item>
+        <item>The imperative</item>
+    </string-array>
+
+    <!-- Add similar arrays for topic2 and topic3 -->
+
+    <string-array name="subHeading1">
+        <item>Great level test, to be taken first, to find out your strengths and weaknesses in French.</item>
+        <item>This level test can be used immediately after the 1st, to confirm the result of this one. We nevertheless recommend that you take it after a few months of revision on the site, in order to evaluate your progress: the two tests being of similar difficulty, they allow you to see on which points you have progressed.</item>
+        <item>Interesting level test on 20 spelling difficulties, at a fairly easy level.</item>
+        <item>Paronyms are words that are very similar in form, spelling or pronunciation, but their meanings differ.</item>
+    </string-array>
+
+    <string-array name="subHeading2">
+        <item>A good starting point if you don\'t know French, or if you want to deepen your knowledge. Your progress is saved. Level tests are regularly offered to you.</item>
+        <item>All other French courses, to work alone on a point that poses a problem to you.</item>
+        <item>Online exercise bank, with tracking of your notes and suggestions for related worksheets.</item>
+    </string-array>
+
+    <string-array name="subHeading3">
+        <item>a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z</item>
+        <item>é, è, ê, à, â, ù, û, ô, î</item>
+        <item>ç</item>
+        <item>le, la ,les, un, une, des, du, de la, au, aux, du</item>
+        <item>masculin et féminin</item>
+        <item>je, tu, il, elle, on, nous, vous, ils, elles</item>
+        <item>être, avoir, aller</item>
+        <item>affirmative, négative, interrogative</item>
+        <item>singulier et pluriel</item>
+        <item>verbe, sujet, groupes</item>
+        <item>présent</item>
+        <item>futur</item>
+        <item>l\'imparfait</item>
+        <item>contraires et qualificatif</item>
+        <item>singuler et pluriel</item>
+        <item>mon, ma, mes, ton, ta, tes, son, sa, ses, notre, nos, votre, vos, leur, leurs</item>
+        <item>ce/cet, cette, ces</item>
+        <item>devant, derrière, à côté de, sous, dans, sur, entre, de, ici, en bas, en haut, le long, là-bas</item>
+        <item>e, s, ons, ez</item>
+    </string-array>
+
+</resources>

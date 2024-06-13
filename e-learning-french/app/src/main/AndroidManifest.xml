@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnFrench"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.quiz.ScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navdrawer.PDFViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navdrawer.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navdrawer.EbooksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.imperative"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.presentTense"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.prepositions"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.demonstrativeAdjectives"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.possessiveAdjectives"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.qualifyingAdjectivesAgreements"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.qualifyingAdjectivesGeneral"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.imperfectIndicatives"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.verbSubjectGroups"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.pluralOfNouns"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.typesOfSentences"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.verbesBeHaveGo"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.subjectPersonalPronouns"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.genderOfNouns"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.articles"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.cedilla"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.accents"
+            android:exported="false" />
+        <activity
+            android:name=".exercices.alphabet"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.thousandOfExercices"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.allOtherCourses"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.progCourses6Levels"
+            android:exported="false" />
+        <activity
+            android:name=".testyourlevel.frequentConfusionParonyms"
+            android:exported="false" />
+        <activity
+            android:name=".testyourlevel.spellingLevelTest"
+            android:exported="false" />
+        <activity
+            android:name=".testyourlevel.leveTest2"
+            android:exported="false" />
+        <activity
+            android:name=".testyourlevel.levelTest1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.StartQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".chaptertopics.TopicActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

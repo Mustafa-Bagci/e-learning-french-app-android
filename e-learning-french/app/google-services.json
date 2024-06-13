@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "379638974316",
+    "project_id": "learn-french-db7d6",
+    "storage_bucket": "learn-french-db7d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379638974316:android:e7f54e58a197c16df09549",
+        "android_client_info": {
+          "package_name": "mustafa.bagci.learnfrench"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCehG8-dgd383Gjgv-eN60RS2jVvIa9-8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
